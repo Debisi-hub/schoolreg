@@ -30,20 +30,20 @@ class createSchool {
 }
 const yct = new createSchool("YABA COLLEGE OF TECHNOLOGY");
 
-const bisi = {
+const bisi = { 
     firstName: "Adebisi",
     lastName: "Adebayo",
-    matricNo: "f/ND/18/3210032",
+    matricNo: "f/ND/18/3210032"
 };
 const odowgu = {
     firstName: "Favour",
     lastName: "Ife",
-    matricNo: "f/ND/18/3210002",
+    matricNo: "f/ND/18/3210002"
 };
 const pere = {
     firstName: "Richard",
     lastName: "Eradiri",
-    matricNo: "f/ND/18/3210067",
+    matricNo: "f/ND/18/3210067"
 };
 yct.registerStudent(odowgu);
 yct.registerStudent(pere);
@@ -52,6 +52,6 @@ yct.registerStudent(bisi);
 // console.log(yct.getStudent("Richard"))
 // console.log(yct.deleteStudent("Adebisi"));
 // console.log(yct.students);
-// yct.updateStudent("Adebisi", "Adeyinka")
+// yct.updateStudent("Adebisi", "Adetola")
 // console.log(yct.students)
 // console.log(yct.checkMatric("f/ND/18/3210032"))
